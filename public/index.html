@@ -3,12 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <title>Supernatural ranking</title>
 
   </head>
   <body>
     <h1>Supernatural Ranking</h1>
+
+    <header>
+      <nav>
+        <a class="add-request">add request</a>
+        <a class="sign-out">sign out</a>
+      </nav>
+    </header>
+
+    <section class="content">
+      <h1>Supernatural Ranking</h1>
+      <ul class="request-list"> 
+        <li>
+          <span class="text">Dean Winchester</span>
+          <div>
+            <span class="votes">10</span>
+            <i class="material-icons upvote">keyboard_double_arrow_up</i>
+          </div>
+        </li>
+      </ul>
+    </section>
     
+    
+    <!-- ---------------- Scripts ---------------- -->
     <script type="module">
       // Import the functions you need from the SDKs you need
       import { initializeApp } from "firebase/app";
